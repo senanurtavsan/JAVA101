@@ -28,15 +28,15 @@ public class Main {
         int toplam = (mat + fizik + turkce + kimya + muzik +tarih );
         double sonuc = toplam / 6.0 ;
 
+        int ab = 59;
+
+        boolean abc = (sonuc > ab);
+
+        String snc = abc ? "Sınıfı Geçti" : "Sınıfta Kaldı";
+
         System.out.println("Ortalamanız : "+ sonuc);
 
-        if (sonuc <50)
-        {
-            System.out.println("KALDI");
-        }
-        else
-        {
-            System.out.println("GEÇTİ");
-        }
+       System.out.println(snc);
     }
 }
+
